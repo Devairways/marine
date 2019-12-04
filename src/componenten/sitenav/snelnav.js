@@ -2,7 +2,7 @@ import React from 'react';
 
 const SnelNav = () => {
   return (
-  	<section>
+  	<section className="container">
     	<h2>Fast to</h2>
 	    <div>
 	    	<div>

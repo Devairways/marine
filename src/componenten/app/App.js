@@ -9,11 +9,13 @@ import './App.css';
 
 const App = () => {
   return (
-    <Fragment className="App">
-      <header className="">
+    <Fragment>
+      <header >
+      <div className="container">
         <NavBar/>
-        <h1>The leading producer of premium quality vegetable oils and fats</h1>
+        <h1 id="eyecatcher">The leading producer of premium quality vegetable oils and fats</h1>
         <button>About us &#8594;</button>
+      </div> 
       </header>
       <main>
         <Blok1/>

@@ -67,6 +67,25 @@ const Footer = () => {
 	      	</ul>
 	      	<a href="">Contact form<span>&#8594;</span></a>
 	    </div>
+	    <div>
+	    	<h3>Follow us on</h3>
+	      	<ul>
+	      		<li><a href=""><img src={require("../../img/link_icons/linkedIn.png")} height="20px" alt="LinkedIn"/></a></li>
+	      		<li><a href=""><img src={require("../../img/link_icons/facebook.png")} height="20px" alt="Facebook"/></a></li>
+	      		<li><a href=""><img src={require("../../img/link_icons/twitter.png")} height="20px" alt="Twitter"/></a></li>
+	      		<li><a href=""><img src={require("../../img/link_icons/instagram.png")} height="20px" alt="Instagram"/></a></li>
+	      		<li><a href=""><img src={require("../../img/link_icons/youtube.png")} height="20px" alt="Youtube"/></a></li>
+	      	</ul>
+	    </div>
+	    <div>
+	    	<div>
+	    		<h3>@ 2019 Bunge Loder Croklaan</h3>
+	    	     Part of Bunge Food & Ingredients
+	    	</div>
+	    	<div>
+	    		<h3>Let`s create together</h3>
+	    	</div>
+	    </div>
 	</div>
    
   );

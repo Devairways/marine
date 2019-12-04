@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blok1 = () => {
   return (
-  	<section>
+  	<section className="container">
   		<div>
 	    	<h1>5</h1>
 	      	<p>Continents from which we operate</p>

@@ -3,7 +3,7 @@ import React from 'react';
 const Producten = () => {
   return (
   	<section>
-  		<div>
+  		<div className="container">
     	<h2>Our premium applications</h2>
 	    </div>
 	    <div>

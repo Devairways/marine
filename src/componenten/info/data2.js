@@ -2,8 +2,8 @@ import React from 'react';
 
 const Blok2 = () => {
   return (
-  	<section>
-  		<div>
+  	<section className="container">
+			<div>
 	    	<h2>The industry`s most globally integrated and sustainable supply chain</h2>
 	      	<p>We serve you with superior quality ingredients at any time, we are ready to respond with speed and agillity</p>
 	    </div>

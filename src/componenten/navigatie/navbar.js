@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
+import "./navbar.css";
 
 const NavBar = () => {
+ const [isOpen, setIsOpen] = useState(false)
+
   return (
-    <div>
-    	<img src="" alt="logo" />
-      	<h1>navigatie</h1>
+    <div id="nav">
+    	<img src={require("../../img/logo.png")} width="150px" alt="logo" />
+      	<div id="burgerMenu" className={isOpen ? "vorm":"" } onClick={()=>{setIsOpen(!isOpen)}}>
+      		<div className="streep1"></div>
+      		<div className="streep2"></div>
+      		<div className="streep3"></div>
+      	</div>
     </div>
   );
 }
