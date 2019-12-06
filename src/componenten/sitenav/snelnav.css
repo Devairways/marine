@@ -7,6 +7,12 @@
 	padding-inline-start:0;
 }
 
+#arrowCarr{
+	margin: 15px;
+    margin-left: 65%;
+    width: 60px;
+}
+
 .navKaart{
 	background: #1c5697;
 	padding:20px 0;
@@ -21,15 +27,14 @@
 .navKaart:nth-of-type(3){
 	background: url("../../img/carriere.png");
 	background-size: cover;
-	height: 250px;
+	padding: 0;
 }
 
 .overlay1{
 	width: 100%;
     height: 100%;
-    margin-top: -20px;
     padding-top: 40px;
-    background: url(/static/media/carr_overlay.f1a06abe.png);
+    background: url(../../img/carr_overlay.png);
     opacity: .9;
     background-size: cover;
 }

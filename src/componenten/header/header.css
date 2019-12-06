@@ -20,5 +20,5 @@ header{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 640px;
+  height: 100vh;
 }

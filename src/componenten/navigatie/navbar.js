@@ -6,7 +6,7 @@ const NavBar = () => {
 
   return (
     <div id="nav">
-    	<img src={require("../../img/logo.png")} width="150px" alt="logo" />
+    	<img src={require("../../img/logo.png")} alt="logo" />
       	<div id="burgerMenu" className={isOpen ? "vorm":"" } onClick={()=>{setIsOpen(!isOpen)}}>
       		<div className="streep1"></div>
       		<div className="streep2"></div>

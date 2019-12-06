@@ -37,7 +37,7 @@ const SnelNav = () => {
 				    		<h3>Be part of our future</h3>
 				    		<p>Are you committed to innovation, enjoy challenge and want to make a sustainable difference</p>
 				    	</div>
-				    	<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl1"/>	
+				    	<img id="arrowCarr" src={require("../../img/arrowW.png")} alt="pijl1"/>	
 			    	</div>
 		    	</div>
 		    </div>

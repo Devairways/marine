@@ -1,6 +1,4 @@
 #productLijst{
-	display: grid;
-	margin-top: -20px
 }
 
 .productKaart{
@@ -18,7 +16,7 @@
 	width: 140px;
 	padding: 5px;
 	color: #fff;
-    margin-top: 47px;
+    margin-top: 64px;
     float: right;
 }
 

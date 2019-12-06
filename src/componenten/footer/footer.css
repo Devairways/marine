@@ -7,7 +7,7 @@
 	background-color: #f0efef;
 	color: #000;
     cursor: pointer;
-	padding: 18px;
+	padding: 20px;
 	transition: 0.4s;
 	border-bottom:2px solid #fff;
 }
@@ -19,11 +19,19 @@
 	overflow: hidden;
 }
 
+.paneel2{
+	background-color: #f0efef;
+	color: #000;
+	padding: 20px;
+	border-bottom:2px solid #fff;
+}
+
 .arrowRotate{
 	width: 30px;
     transform: rotate(90deg);
     float: right;
     padding-right: 60px;
+    padding-top: 30px;
 }
 
 footer{

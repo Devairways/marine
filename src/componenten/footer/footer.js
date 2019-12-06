@@ -1,92 +1,31 @@
 import React from 'react';
+import Accordion from './accordion';
+import SocialLinks from './social';
 import "./footer.css";
 
 const Footer = () => {
   return (
   	<footer>
   		<div>
-	  		<div className="accordion">
-		    	<h3>Our company</h3>
-		    	<img className="arrowRotate" src={require("../../img/arrow.png")} alt="pijl"/>
-		      	<ul className="paneel">
-		      		<li>Rich heritance</li>
-		      		<li>Management</li>
-		      		<li>Values</li>
-		      		<li>Locations</li>
-		      		<li>Quality documents</li>
-		      		<li>General conditions</li>
-		      	</ul>
+  		    <Accordion/>
+		    <div className="paneel2">
+		    	<h3>Sustainability newsletter</h3>
+		      	<p>
+		      		Learn more about our journey towards sustainable, traceable and transparant supply chain
+		      	</p>
+		      	<a href=""><span>Sign up</span><img className="arrow" src={require("../../img/arrow.png")} alt="pijl"/></a>
 		    </div>
-		    <div className="accordion">
-		    	<h3>Insights</h3>
-		    	<img className="arrowRotate" src={require("../../img/arrow.png")} alt="pijl"/>
-		      	<ul className="paneel">
-		      		<li>News</li>
-		      		<li>Innovations</li>
-		      		<li>Customer Cases</li>
+		    <div className="paneel2">
+		    	<h3>Contact</h3>
+		      	<ul>
+		      		<li>Hogeweg 1</li>
+		      		<li>1521 AZ, Wormerveer</li>
+		      		<li>The Netherlands</li>
 		      	</ul>
-		    </div>
-		    <div className="accordion">
-		    	<h3>Applications</h3>
-		    	<img className="arrowRotate" src={require("../../img/arrow.png")} alt="pijl"/>
-		      	<ul className="paneel">
-		      		<li>Bakery</li>
-		      		<li>Confectionery</li>
-		      		<li>Spreads</li>
-		      		<li>Frying</li>
-		      		<li>Culinary</li>
-		      		<li>Non-Food products</li>
-		      		<li>Dairy Fat Alternatives</li>
-		      		<li>Infant Nutrition</li>
-		      		<li>Spray Oil</li>
-		      		<li>Special Ingredients</li>
-		      	</ul>
-		    </div>
-		    <div className="accordion">
-		    	<h3>Responsibility</h3>
-		    	<img className="arrowRotate" src={require("../../img/arrow.png")} alt="pijl"/>
-		      	<ul className="paneel">
-		      		<li>Dashboard</li>
-		      		<li>Certification</li>
-		      		<li>Social Responsibility</li>
-		      		<li>Sustainable Sourcing</li>
-		      		<li>Palm Oils</li>
-		      		<li>Other Oils</li>
-		      		<li>Shea</li>
-		      		<li>List of Mills</li>
-		      		<li>Grievance Procedure</li>
-		      		<li>Supplier Engagement</li>
-		      	</ul>
-		    </div>
-		    <div className="container">
-			    <div className="accordion">
-			    	<h3>Sustainability newsletter</h3>
-			      	<p>
-			      		Learn more about our journey towards sustainable, traceable and transparant supply chain
-			      	</p>
-			      	<a href=""><span>Sign up</span><img className="arrow" src={require("../../img/arrow.png")} alt="pijl"/></a>
-			    </div>
-			    <div className="accordion">
-			    	<h3>Contact</h3>
-			      	<ul>
-			      		<li>Hogeweg 1</li>
-			      		<li>1521 AZ, Wormerveer</li>
-			      		<li>The Netherlands</li>
-			      	</ul>
-			      	<a href=""><span>Contact form</span><img className="arrow" src={require("../../img/arrow.png")} alt="pijl"/></a>
-			    </div>
+		      	<a href=""><span>Contact form</span><img className="arrow" src={require("../../img/arrow.png")} alt="pijl"/></a>
 		    </div>
 		</div>
-	    <div className="accordion">
-	    	<h3>Follow us on</h3>
-	      	<ul id="socialLinks">
-	      		<li><a href=""><img src={require("../../img/link_icons/linkedIn.png")} height="20px" alt="LinkedIn"/></a></li>
-	      		<li><a href=""><img src={require("../../img/link_icons/facebook.png")} height="20px" alt="Facebook"/></a></li>
-	      		<li><a href=""><img src={require("../../img/link_icons/twitter.png")} height="20px" alt="Twitter"/></a></li>
-	      		<li><a href=""><img src={require("../../img/link_icons/instagram.png")} height="20px" alt="Instagram"/></a></li>
-	      		<li><a href=""><img src={require("../../img/link_icons/youtube.png")} height="20px" alt="Youtube"/></a></li>
-	      	</ul>
-	    </div>
+		<SocialLinks/>
 	    <div>
 	    	<div>
 	    		<h3>@ 2019 Bunge Loder Croklaan</h3>
