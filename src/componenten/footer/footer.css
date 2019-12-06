@@ -26,10 +26,11 @@
 	background-color: #f0efef;
 	color: #000;
 	padding: 20px;
+	border-bottom:2px solid #fff;
 }
 
-.paneel2:first-of-type{
-	border-bottom:2px solid #fff;
+.border{
+	border:none;
 }
 
 .arrowRotate{
@@ -39,10 +40,6 @@
     margin-top: -15px;
 }
 
-footer{
-	margin-top: -40px;
-}
-
 a img{
 	padding-right: 15px;
 }
@@ -50,4 +47,5 @@ a img{
 img[alt="slogan"]{
 	width: 60%;
 	margin-left:40%;
+	margin-bottom: -5px;
 }

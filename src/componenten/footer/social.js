@@ -3,7 +3,7 @@ import "./footer.css";
 
 const SocialLinks = () =>{
 	return(
-		<div className="paneel2">
+		<div className="paneel2 border">
 	    	<h3>Follow us on</h3>
 	      	<ul id="socialLinks">
 	      		<li><a href=""><img src={require("../../img/link_icons/linkedIn.png")} height="20px" alt="LinkedIn"/></a></li>

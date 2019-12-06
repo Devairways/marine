@@ -3,10 +3,8 @@
   width: 220px;
   padding: 5px;
   color: #fff;
-  transition: .5s;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  float: right;
+  margin-top: -54px;
   text-align: right;
 }
 
@@ -19,8 +17,7 @@
 header{
   background: url("../../img/hdr_background_mob.png") no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
-  transition: 0.5s;
-  height: 100vh;
+  height: 640px;
 }
