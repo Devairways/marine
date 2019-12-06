@@ -12,6 +12,13 @@ const NavBar = () => {
       		<div className="streep2"></div>
       		<div className="streep3"></div>
       	</div>
+        <div id="slidenav">
+          <ul>
+            <li>iets</li>
+            <li>iets</li>
+            <li>iets</li>
+          </ul>
+        </div>
     </div>
   );
 }

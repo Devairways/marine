@@ -12,7 +12,7 @@ const Accordion = () =>{
 		<div>
 			<div className="accordion" onClick={() =>{setOpen1(!open1) }}>
 		    	<h3>Our company</h3>
-		    	<img className="arrowRotate" src={require("../../img/arrow.png")} alt="pijl"/>
+		    	<img className="arrowRotate" style={open1 ? {transform:"rotate(270deg)"}: {transform:"rotate(90deg)"}} src={require("../../img/arrow.png")} alt="pijl"/>
 		      	<div className="paneel" style={open1 ? {maxHeight:"250px"}: {maxHeight:"0"}}>
 		      		<ul>
 		      			<li>Rich heritance</li>
@@ -27,7 +27,7 @@ const Accordion = () =>{
 		    </div>
 		    <div className="accordion" onClick={() =>{setOpen2(!open2) }}>
 		    	<h3>Insights</h3>
-		    	<img className="arrowRotate" src={require("../../img/arrow.png")} alt="pijl"/>
+		    	<img className="arrowRotate"style={open2 ? {transform:"rotate(270deg)"}: {transform:"rotate(90deg)"}} src={require("../../img/arrow.png")} alt="pijl"/>
 		      	<div className="paneel" style={open2 ? {maxHeight:"250px"}: {maxHeight:"0"}}>
 			      	<ul>
 			      		<li>News</li>
@@ -38,7 +38,7 @@ const Accordion = () =>{
 		    </div>
 		    <div className="accordion" onClick={() =>{setOpen3(!open3) }}>
 		    	<h3>Applications</h3>
-		    	<img className="arrowRotate" src={require("../../img/arrow.png")} alt="pijl"/>
+		    	<img className="arrowRotate" style={open3 ? {transform:"rotate(270deg)"}: {transform:"rotate(90deg)"}} src={require("../../img/arrow.png")} alt="pijl"/>
 		    	<div className="paneel" style={open3 ? {maxHeight:"250px"}: {maxHeight:"0"}}>
 		    		<ul >
 			      		<li>Bakery</li>

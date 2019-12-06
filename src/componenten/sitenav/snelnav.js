@@ -17,7 +17,7 @@ const SnelNav = () => {
 		    		<hr/>
 		    		<ul>
 		    			<li>Read our latest newsletter<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
-		    			<li>Sign up for our sustianability newsletter<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
+		    			<li>Sign up for our sustainability newsletter<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
 		    		</ul>
 		    	</div>
 		    	<div className="navKaart">
