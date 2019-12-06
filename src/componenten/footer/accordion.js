@@ -13,7 +13,7 @@ const Accordion = () =>{
 			<div className="accordion" onClick={() =>{setOpen1(!open1) }}>
 		    	<h3>Our company</h3>
 		    	<img className="arrowRotate" src={require("../../img/arrow.png")} alt="pijl"/>
-		      	<div className="paneel" style={open1 ? {maxHeight:"100px"}: {maxHeight:"0"}}>
+		      	<div className="paneel" style={open1 ? {maxHeight:"250px"}: {maxHeight:"0"}}>
 		      		<ul>
 		      			<li>Rich heritance</li>
 			      		<li>Management</li>
@@ -28,7 +28,7 @@ const Accordion = () =>{
 		    <div className="accordion" onClick={() =>{setOpen2(!open2) }}>
 		    	<h3>Insights</h3>
 		    	<img className="arrowRotate" src={require("../../img/arrow.png")} alt="pijl"/>
-		      	<div className="paneel" style={open2 ? {maxHeight:"100px"}: {maxHeight:"0"}}>
+		      	<div className="paneel" style={open2 ? {maxHeight:"250px"}: {maxHeight:"0"}}>
 			      	<ul>
 			      		<li>News</li>
 			      		<li>Innovations</li>
@@ -58,7 +58,7 @@ const Accordion = () =>{
 		    <div className="accordion" onClick={() =>{setOpen4(!open4) }}>
 		    	<h3>Responsibility</h3>
 		    	<img className="arrowRotate" style={open4 ? {transform:"rotate(270deg)"}: {transform:"rotate(90deg)"}} src={require("../../img/arrow.png")} alt="pijl"/>
-		      	<div className="paneel" style={open4 ? {maxHeight:"100px"}: {maxHeight:"0"}}>
+		      	<div className="paneel" style={open4 ? {maxHeight:"250px"}: {maxHeight:"0"}}>
 		      		<ul>
 			      		<li>Dashboard</li>
 			      		<li>Certification</li>
