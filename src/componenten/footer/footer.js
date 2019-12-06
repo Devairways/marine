@@ -26,14 +26,13 @@ const Footer = () => {
 		    </div>
 		</div>
 		<SocialLinks/>
-	    <div>
+	    <div id="voet" className="gradientBckgr">
 	    	<div>
-	    		<h3>@ 2019 Bunge Loder Croklaan</h3>
-	    	     Part of Bunge Food & Ingredients
+	    		<p>&#169; 2019 Bunge Loder Croklaan<br/>
+	    	     Part of Bunge <a>Food & Ingredients</a></p>
+	    	     <img className="" src={require("../../img/footer-lets-create-together.png")} alt="slogan"/>
 	    	</div>
-	    	<div>
-	    		<h3>Let`s create together</h3>
-	    	</div>
+    		
 	    </div>
 	</footer>
    

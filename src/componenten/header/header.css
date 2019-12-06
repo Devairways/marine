@@ -20,5 +20,6 @@ header{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  transition: 0.5s;
   height: 100vh;
 }

@@ -2,7 +2,10 @@
 	display: flex;
 	padding-inline-start:0;
 }
-
+#voet{
+	padding-top: 20px;
+	padding-left: 20px;
+}
 .accordion{
 	background-color: #f0efef;
 	color: #000;
@@ -40,4 +43,9 @@ footer{
 
 a img{
 	padding-right: 15px;
+}
+
+img[alt="slogan"]{
+	width: 60%;
+	margin-left:40%;
 }
