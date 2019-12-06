@@ -4,6 +4,7 @@ import "./info.css";
 const Blok2 = () => {
   return (
   	<section className="container">
+  	 <div>
 		<div >
 	    	<h2 id="infoBlok">The industry`s most globally integrated and sustainable supply chain</h2>
 	      	<p>We serve you with superior quality ingredients at any time, we are ready to respond with speed and agillity</p>
@@ -20,6 +21,7 @@ const Blok2 = () => {
 	    </div>
 	    <div>
 	    	<a href=""><span>Discover our supply chain</span><img className="arrow" src={require("../../img/arrow.png")} alt="pijl"/></a>
+	    </div>
 	    </div>
 	    <img src={require("../../img/Rdam_dock.png")} alt="dock"/>
   	</section>

@@ -5,6 +5,12 @@
 #voet{
 	padding-top: 20px;
 	padding-left: 20px;
+	color: #fff;
+}
+
+#voet a{
+	color: #fff;
+	text-decoration: underline;
 }
 .accordion{
 	background-color: #f0efef;
@@ -15,11 +21,16 @@
 	border-bottom:2px solid #fff;
 }
 
+.none{
+	max-height: 0;
+}
+
 .paneel {
 	padding: 0 18px;
-	background-color: white;
-	display: none;
-	overflow: hidden;
+    background-color: #f0efef;
+    max-height: 100;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 .paneel2{
@@ -38,6 +49,7 @@
     transform: rotate(90deg);
     float: right;
     margin-top: -15px;
+    transition: rotate 0.2s ease-out;
 }
 
 a img{
