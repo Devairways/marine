@@ -1,0 +1,35 @@
+#socialLinks{
+	display: flex;
+	padding-inline-start:0;
+}
+
+.accordion{
+	background-color: #f0efef;
+	color: #000;
+    cursor: pointer;
+	padding: 18px;
+	transition: 0.4s;
+	border-bottom:2px solid #fff;
+}
+
+.paneel {
+	padding: 0 18px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+}
+
+.arrowRotate{
+	width: 30px;
+    transform: rotate(90deg);
+    float: right;
+    padding-right: 60px;
+}
+
+footer{
+	margin-top: -40px;
+}
+
+a img{
+	padding-right: 15px;
+}

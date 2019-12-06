@@ -1,0 +1,30 @@
+#productLijst{
+	display: grid;
+	margin-top: -20px
+}
+
+.productKaart{
+	height: 200px;
+}
+
+.product{
+	padding-left: 35px;
+    padding-top: 80px;
+    color: #fff;
+}
+
+.buttons{
+	background:url("../../img/Background.svg");
+	width: 140px;
+	padding: 5px;
+	color: #fff;
+    margin-top: 47px;
+    float: right;
+}
+
+.arrow1{
+    margin: 5px;
+    vertical-align: middle;
+    width: 60px;
+    margin-left: 60px;
+}

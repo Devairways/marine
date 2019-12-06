@@ -1,0 +1,39 @@
+#carriere{
+	width: 50%;
+	padding-left: 20px;
+}
+
+#carriere h3{
+	padding-inline-start:0;
+}
+
+.navKaart{
+	background: #1c5697;
+	padding:20px 0;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+.navKaart h3{
+	padding-inline-start:20px;
+}
+
+.navKaart:nth-of-type(3){
+	background: url("../../img/carriere.png");
+	background-size: cover;
+	height: 250px;
+}
+
+.overlay1{
+	width: 100%;
+    height: 100%;
+    margin-top: -20px;
+    padding-top: 40px;
+    background: url(/static/media/carr_overlay.f1a06abe.png);
+    opacity: .9;
+    background-size: cover;
+}
+
+hr{
+	border: 1px solid #3367a2;
+}

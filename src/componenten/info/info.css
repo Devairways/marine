@@ -1,0 +1,29 @@
+#infoBlok{
+	color: #000;
+}
+
+#uren{
+	display: flex;
+}
+#uren div{
+	padding:0 20px;
+}
+
+#uren div:first-child{
+	border-right: 2px solid lightgrey;
+	padding-left: 0;
+}
+
+.cijfers{
+   background: -webkit-linear-gradient(0deg, rgba(97,180,219,1) 0%, rgba(0,85,151,1) 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  margin-bottom: -15px;
+  padding: 0;
+}
+
+img[alt="dock"]{
+	width: 100%;
+}
+
