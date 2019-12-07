@@ -7,16 +7,17 @@ const NavBar = () => {
   return (
     <div id="nav">
     	<img src={require("../../img/logo.png")} alt="logo" />
-      	<div id="burgerMenu" className={isOpen ? "vorm":"" } onClick={()=>{setIsOpen(!isOpen)}}>
+      	<div id="burgerMenu" className={isOpen ? "vorm":"" } style={isOpen ? {position:"fixed"}:{position:"initial"}} onClick={()=>{setIsOpen(!isOpen)}}>
       		<div className="streep1"></div>
       		<div className="streep2"></div>
       		<div className="streep3"></div>
       	</div>
-        <div id="slidenav">
-          <ul>
-            <li>iets</li>
-            <li>iets</li>
-            <li>iets</li>
+        <div id="slidenav" style={isOpen ? {width:"60%"}:{width:"0"}}>
+          <ul id="slidemenu">
+            <li>Company</li>
+            <li>Applications</li>
+            <li>Contact</li>
+            <li>Global</li>
           </ul>
         </div>
     </div>
