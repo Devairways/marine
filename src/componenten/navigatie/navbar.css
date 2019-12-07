@@ -18,11 +18,11 @@
 	background-size: cover;
 	z-index: 10;
 	position: fixed;
-	width: 60%;
+	width: 200px;
     height: 100%;
     top: 0;
     right: 0;
-    transition: width .7s ease-in-out;
+    transition: max-width .7s ease-in-out;
 }
 
 #slidemenu{

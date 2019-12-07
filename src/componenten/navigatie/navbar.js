@@ -12,7 +12,7 @@ const NavBar = () => {
       		<div className="streep2"></div>
       		<div className="streep3"></div>
       	</div>
-        <div id="slidenav" style={isOpen ? {width:"60%"}:{width:"0"}}>
+        <div id="slidenav" style={isOpen ? {maxWidth:"200px"}:{maxWidth:"0"}}>
           <ul id="slidemenu">
             <li>Company</li>
             <li>Applications</li>
