@@ -1,3 +1,10 @@
+#dsktopfooter{
+	display: none;
+}
+#mobfooter{
+	display: block;
+}
+    
 #socialLinks{
 	display: flex;
 	padding-inline-start:0;
@@ -64,6 +71,13 @@ img[alt="slogan"]{
 
 @media screen and (min-width: 600px){
 
+	 #dsktopfooter{
+    	display: none;
+    }
+
+    #mobfooter{
+    	display: block;
+    }
 	#voetcontent{
 		display: flex;
         justify-content: space-between;
@@ -80,4 +94,50 @@ img[alt="slogan"]{
 		display: none;
 	}
 }
+
+@media screen and (min-width: 769px){
+
+    #dsktopfooter{
+    	display: block;
+    }
+
+    #mobfooter{
+    	display: none;
+    }
+
+    #desktop{
+    	display: inline-flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #f0efef;
+        padding: 60px 0;
+        font-size: 1.2rem;
+    }
+
+    #contact{
+    	display: inline-flex;
+    }
     
+    .paneel2{
+    	border: none;
+    	padding: 0;
+    }
+    .column{
+    	padding-right: 20px;
+    }
+
+    .column h3{
+    	padding-left: 20px;
+    }
+
+    .dsktpfix{
+	    width: 35%;
+    	min-width: 360px;
+    	padding: 0;
+    }
+
+    .dsktpfix ul{
+    	padding: 0;
+    }
+}

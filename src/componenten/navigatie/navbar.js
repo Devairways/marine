@@ -11,7 +11,7 @@ const NavBar = () => {
         <li><h2>Company</h2></li>
         <li><h2>Applications</h2></li>
         <li><h2>Contact</h2></li>
-        <li><h2>Global</h2></li>
+        <li><h2>Global &#9660;</h2></li>
       </ul>
     	<div id="burgerMenu" className={isOpen ? "vorm":"" } style={isOpen ? {position:"fixed"}:{position:"initial"}} onClick={()=>{setIsOpen(!isOpen)}}>
     		<div className="streep1"></div>

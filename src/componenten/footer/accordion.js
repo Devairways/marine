@@ -1,4 +1,5 @@
 import React, { useState} from "react";
+import Contact from './contact';
 import "./footer.css";
 
 const Accordion = () =>{
@@ -73,6 +74,7 @@ const Accordion = () =>{
 		      		</ul>
 		      	</div>
 		    </div>
+		    <Contact/>
 		</div>
 		)
 }
