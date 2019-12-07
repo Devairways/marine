@@ -18,7 +18,6 @@
 	background-size: cover;
 	z-index: 10;
 	position: fixed;
-	width: 200px;
     height: 100%;
     top: 0;
     right: 0;
@@ -34,6 +33,11 @@
     padding-right: 20px;
     text-align: end;
 }
+
+#dsktpMenu{
+		display: none;
+		transition: width .7s ease-in-out;
+	}
 
 
 .streep1, .streep2, .streep3 {
@@ -62,3 +66,32 @@ img[alt="logo"]{
 	width: 150px;
 	height: 45px;
 }
+
+@media screen and (min-width: 600px) {
+  
+	img[alt="logo"]{
+		width: 300px;
+    	height: 100px;
+	}
+    
+    #dsktpMenu{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+
+	#dsktpMenu{
+		display: inline-flex;
+		width: 100%;
+		justify-content: flex-end;
+		margin: 0;
+		padding: 0;
+	}
+	#dsktpMenu h2{
+		font-weight: normal;
+		margin: 0;
+		padding: 0;
+		padding-right: 20px;
+	}
+  }

@@ -61,3 +61,23 @@ img[alt="slogan"]{
 	margin-left:40%;
 	margin-bottom: -5px;
 }
+
+@media screen and (min-width: 600px){
+
+	#voetcontent{
+		display: flex;
+        justify-content: space-between;
+	}
+
+	img[alt="slogan"]{
+		width: 350px;
+        margin:0; 
+	    margin-top: -80px;
+	    max-height: 60px;
+	}
+
+	br{
+		display: none;
+	}
+}
+    

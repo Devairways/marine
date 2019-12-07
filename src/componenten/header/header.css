@@ -2,6 +2,7 @@
   background:url("../../img/Background.svg");
   width: 220px;
   padding: 5px;
+  cursor: pointer;
   color: #fff;
   float: right;
   margin-top: -54px;
@@ -20,4 +21,46 @@ header{
   background-size: 100% 100%;
   background-attachment: fixed;
   height: 640px;
+}
+
+header h1{
+  font-size: normal;
+}
+
+
+@media screen and (min-width: 600px, max-width: 768px) {
+
+  #button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  header{
+    background: url("../../img/hdr_background_mob.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  header h1{
+    height: 90%;
+    width: 90%;
+    padding: 100px 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  
+  header{
+    background: url("../../img/hdr_background_dsktp.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  header h1{
+    font-size: 4rem;
+    width: 70%;
+    padding-top: 230px;
+  }
 }

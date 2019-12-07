@@ -9,14 +9,19 @@
 
 #arrowCarr{
 	margin: 15px;
-    margin-left: 65%;
+    padding: 10px;
     width: 60px;
+}
+
+#kaartlijst{
+	display: block;
 }
 
 .navKaart{
 	background: #1c5697;
 	padding:20px 0;
 	margin-bottom: 40px;
+	width: 100%;
 	color: #fff;
 }
 
@@ -32,13 +37,43 @@
 
 .overlay1{
 	width: 100%;
-    height: 100%;
-    padding-top: 40px;
-    background: url(../../img/carr_overlay.png);
+    padding-top: 20px;
+    background: url(../../img/carr_overlay.png) no-repeat;
     opacity: .9;
-    background-size: cover;
+    background-size: contain;
 }
 
 hr{
 	border: 1px solid #3367a2;
+}
+
+@media screen and (min-width: 600px) {
+
+	#kaartlijst{
+		display: block;
+	}
+
+	.overlay1{
+		padding-top: 200px;
+		background-size: cover;
+		height: fit-content;
+	}
+
+	.navKaart{
+		width: 100%;
+
+	}
+}
+
+@media screen and (min-width: 769px) {
+
+	#kaartlijst{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.navKaart{
+		width: 450px;
+
+	}
 }

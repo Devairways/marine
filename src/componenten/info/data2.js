@@ -3,10 +3,10 @@ import "./info.css";
 
 const Blok2 = () => {
   return (
-  	<section className="container">
-  	 <div>
+  	<section id="data1" className="container">
+  	 <div id="infoBlok">
 		<div >
-	    	<h2 id="infoBlok">The industry`s most globally integrated and sustainable supply chain</h2>
+	    	<h2>The industry`s most globally integrated and sustainable supply chain</h2>
 	      	<p>We serve you with superior quality ingredients at any time, we are ready to respond with speed and agillity</p>
 	    </div>
 	    <div id="uren">

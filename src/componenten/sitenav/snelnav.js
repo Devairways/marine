@@ -6,7 +6,7 @@ const SnelNav = () => {
   	<section className="gradientBckgr">
 	  	<div className="container">
 	  		<h2>Fast to</h2>
-		    <div>
+		    <div id="kaartlijst">
 		    	<div className="navKaart">
 		    		<h3>Latest insights</h3>
 		    		<ul>

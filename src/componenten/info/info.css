@@ -1,4 +1,4 @@
-#infoBlok{
+#infoBlok h2{
 	color: #000;
 }
 
@@ -14,6 +14,11 @@
 	padding-left: 0;
 }
 
+#data1{
+    padding: 0;
+    font-size: normal;
+  }
+
 .cijfers{
    background: -webkit-linear-gradient(0deg, rgba(97,180,219,1) 0%, rgba(0,85,151,1) 45%);
   -webkit-background-clip: text;
@@ -28,9 +33,52 @@ img[alt="dock"]{
 }
 
 
-/*data1 desktop
-display: flex;
+@media screen and (min-width: 600px) {
+  
+  #data{
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
-}*/
+    height: 200px;
+  }
+  #data div{
+    min-width: 220px;
+    padding-right: 15px;
+    margin:auto;
+  }
+
+  #data h1{
+    font-size: 5em;
+  } 
+
+  #data p{
+    font-size: 1.5em;
+  }
+
+  #data1{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px){
+
+   #infoBlok{
+    width: 60%;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+ 
+  #data1{
+    display: flex;
+    padding: 20px;
+    font-size: 1.7em;
+  }
+
+  img[alt="dock"]{
+    width: 600px;
+    height: fit-content;
+  }
+
+}
