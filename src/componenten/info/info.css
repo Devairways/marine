@@ -36,11 +36,9 @@ img[alt="dock"]{
 @media screen and (min-width: 600px) {
   
   #data{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 200px;
+    display: block;
   }
+  
   #data div{
     min-width: 220px;
     padding-right: 15px;
@@ -61,6 +59,13 @@ img[alt="dock"]{
 }
 
 @media screen and (min-width: 769px){
+   
+   #data{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+  }
 
    #infoBlok{
     width: 80%;
