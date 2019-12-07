@@ -63,8 +63,9 @@ img[alt="dock"]{
 @media screen and (min-width: 769px){
 
    #infoBlok{
-    width: 60%;
-    padding: 0 30px;
+    width: 80%;
+    min-width: 361px;
+    padding-right: 30px;
   }
 }
 
@@ -76,8 +77,8 @@ img[alt="dock"]{
     font-size: 1.7em;
   }
 
-  img[alt="dock"]{
-    width: 600px;
+  img[alt="dock"]{  
+    overflow: hidden;
     height: fit-content;
   }
 
