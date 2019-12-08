@@ -29,7 +29,6 @@
 @media screen and (min-width: 600px){
     #productLijst{
         display: block;
-        height: unset;
     }
 }
 
@@ -48,6 +47,7 @@
         padding-top: 25%;
         color: #fff;
         font-size: xx-large;
+        align-self: start;
     }
 
     .buttons{
