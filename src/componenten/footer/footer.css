@@ -107,7 +107,7 @@ img[alt="slogan"]{
 
     #desktop{
     	display: inline-flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
         width: 100%;
         background-color: #f0efef;
@@ -118,7 +118,7 @@ img[alt="slogan"]{
     #contact{
     	display: inline-flex;
     }
-    
+
     .paneel2{
     	border: none;
     	padding: 0;
@@ -134,7 +134,7 @@ img[alt="slogan"]{
     .dsktpfix{
 	    width: 35%;
     	min-width: 360px;
-    	padding: 0;
+    	padding-left: 15px;
     }
 
     .dsktpfix ul{

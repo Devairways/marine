@@ -5,43 +5,53 @@ const Producten = () => {
 	const producten = [
 		{
 			product: "Bakery",
-			img: require("../../img/producten/bakery.png")
+			img: require("../../img/producten/bakery.png"),
+			spec: "hero"
 		},
 		{
 			product: "Confectionary",
-			img: require("../../img/producten/confectionary.png")
+			img: require("../../img/producten/confectionary.png"),
+			spec: ""
 		},
 		{
 			product: "Spreads",
-			img: require("../../img/producten/spreads.png")
+			img: require("../../img/producten/spreads.png"),
+			spec: ""
 		},
 		{
 			product: "Frying",
-			img: require("../../img/producten/frying.png")
+			img: require("../../img/producten/frying.png"),
+			spec: ""
 		},
 		{
 			product: "Culinary",
-			img: require("../../img/producten/culinary.png")
+			img: require("../../img/producten/culinary.png"),
+			spec: ""
 		},
 		{
 			product: "Non-food Products",
-			img: require("../../img/producten/non-food.png")
+			img: require("../../img/producten/non-food.png"),
+			spec: ""
 		},
 		{
 			product: "Dairy Fat Alternatives",
-			img: require("../../img/producten/dairyfatalts.png")
+			img: require("../../img/producten/dairyfatalts.png"),
+			spec: ""
 		},
 		{
 			product: "Special Ingredients",
-			img: require("../../img/producten/spec_ingr.png")
+			img: require("../../img/producten/spec_ingr.png"),
+			spec: ""
 		},
 		{
 			product: "Dairy Fat Alternatives",
-			img: require("../../img/producten/dairy_fat_alt.png")
+			img: require("../../img/producten/dairy_fat_alt.png"),
+			spec: "hero2"
 		},
 		{
 			product: "Spray Oil",
-			img: require("../../img/producten/sprayoil.png")
+			img: require("../../img/producten/sprayoil.png"),
+			spec: "hero3"
 		},
 	]
     return (
@@ -54,10 +64,9 @@ const Producten = () => {
 		    <div id="productLijst">
 		    {
 		    	producten.map((p) =>{
-		    		console.log(p.img)
 		    		return(
-		    		<div className="productKaart" style={{background: `url(${p.img}) no-repeat`,backgroundSize:"cover"}}>
-		    		    <div className="overlay">
+		    		<div className={`productKaart ${p.spec}`} style={{background: `url(${p.img}) no-repeat`,backgroundSize:"cover",backgroundPosition:"top"}}>
+		    		    <div className="overlay gridfix">
 		    		    	<h3 className="product">{p.product}</h3>
 		    		    	<div className="buttons"><img className="arrow1" src={require("../../img/arrowW.png")} alt="pijl"/></div>
 		    		    </div>
