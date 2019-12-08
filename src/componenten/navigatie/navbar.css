@@ -67,11 +67,19 @@ img[alt="logo"]{
 	height: 45px;
 }
 
+img[alt="logo_slogan"]{
+	display: none;
+}
+
 @media screen and (min-width: 600px) {
   
 	img[alt="logo"]{
 		width: 200px;
     	height: 80px;
+	}
+
+	img[alt="logo_slogan"]{
+		display: none;
 	}
     
     #dsktpMenu{
@@ -80,9 +88,14 @@ img[alt="logo"]{
 }
 
 @media screen and (min-width: 1024px) {
+
 	img[alt="logo"]{
 		width: 300px;
     	height: 100px;
+	}
+	img[alt="logo_slogan"]{
+		display: block;
+		width: 300px;
 	}
 
 	#dsktpMenu{

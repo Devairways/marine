@@ -6,7 +6,10 @@ const NavBar = () => {
 
   return (
     <div id="nav">
-    	<img src={require("../../img/logo.png")} alt="logo" />
+      <div>
+      	<img src={require("../../img/logo.png")} alt="logo" />
+        <img src={require("../../img/logo_slogan.png")} alt="logo_slogan" />
+      </div>
       <ul id="dsktpMenu">
         <li><h2>Company</h2></li>
         <li><h2>Applications</h2></li>
