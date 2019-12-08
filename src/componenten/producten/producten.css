@@ -44,7 +44,7 @@
         height: unset;
     }
     .product{
-        padding-left: 65px;
+        padding-left: 0;
         padding-top: 25%;
         color: #fff;
         font-size: xx-large;
@@ -60,7 +60,11 @@
     }
 
     .gridfix{
+        justify-content: flex-end;
+        flex-wrap: wrap;
         overflow: hidden;
+        display: flex;
+        align-items: flex-end;
     }
 
     .hero{
@@ -79,7 +83,7 @@
     }
 
     .hero .buttons, .hero2 .buttons, .hero3 .buttons{
-        margin-top: 570px;
+        margin-top: 0;
     }
 }
 
