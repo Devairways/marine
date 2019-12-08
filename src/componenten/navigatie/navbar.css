@@ -74,7 +74,7 @@ img[alt="logo_slogan"]{
 @media screen and (min-width: 600px) {
   
 	img[alt="logo"]{
-		width: 200px;
+		width: 300px;
     	height: 80px;
 	}
 
@@ -91,11 +91,13 @@ img[alt="logo_slogan"]{
 
 	img[alt="logo"]{
 		width: 300px;
-    	height: 100px;
+    	height: 80px;
+    	margin-right: -50px;
 	}
 	img[alt="logo_slogan"]{
 		display: block;
 		width: 300px;
+		margin-right: -50px;
 	}
 
 	#dsktpMenu{
