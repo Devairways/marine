@@ -44,7 +44,7 @@ const Producten = () => {
 			spec: ""
 		},
 		{
-			product: "Dairy Fat Alternatives",
+			product: "Infant Nutrition",
 			img: require("../../img/producten/dairy_fat_alt.png"),
 			spec: "hero2"
 		},
