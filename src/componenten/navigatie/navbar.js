@@ -14,7 +14,17 @@ const NavBar = () => {
         <li><h2>Company</h2></li>
         <li><h2>Applications</h2></li>
         <li><h2>Contact</h2></li>
-        <li><h2>Global &#9660;</h2></li>
+        <li>
+          <div className="dropdown">
+            <h2>Global
+            <img src={require("../../img/arrowDown.png")} alt="dropdown"/></h2>
+            <div className="dropdown-content">
+              <a href="/">Link 1</a>
+              <a href="/">Link 2</a>
+              <a href="/">Link 3</a>
+            </div>
+          </div>
+        </li>
       </ul>
     	<div id="burgerMenu" className={isOpen ? "vorm":"" } style={isOpen ? {position:"fixed"}:{position:"initial"}} onClick={()=>{setIsOpen(!isOpen)}}>
     		<div className="streep1"></div>

@@ -37,7 +37,7 @@
     #productLijst{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(5, 40vh);
+        grid-template-rows: repeat(5, 30vh);
     }
     .productKaart{
         height: unset;
@@ -87,5 +87,3 @@
         margin-top: 0;
     }
 }
-
-    

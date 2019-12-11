@@ -23,7 +23,7 @@ header{
   height: 640px;
 }
 
-header h1{
+header h1 {
   font-size: normal;
 }
 
@@ -62,5 +62,9 @@ header h1{
     font-size: 4rem;
     width: 70%;
     padding-top: 10%;
+  }
+
+  header h2{
+    font-size: normal;
   }
 }
