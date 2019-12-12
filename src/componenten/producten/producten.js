@@ -40,7 +40,7 @@ const Producten = () => {
 		},
 		{
 			product: "Anti Foulings",
-			img: require("../../img/producten/spec_ingr.png"),
+			img: require("../../img/producten/AF.jpg"),
 			spec: ""
 		},
 		{
