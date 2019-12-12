@@ -25,8 +25,8 @@ const SnelNav = () => {
 		    		<ul>
 		    			<li>Social responsibility<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
 		    			<li>Sustainable sourcing<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
-		    			<li>Palm oils<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
-		    			<li>Other oils<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
+		    			<li>Primers<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
+		    			<li>Special Primers<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
 		    			<li>Grievance procedure<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
 		    			<li>Supplier engagement<img className="arrow" src={require("../../img/arrowW.png")} alt="pijl"/></li>
 		    		</ul>
@@ -35,7 +35,7 @@ const SnelNav = () => {
 			    	<div className="overlay1">
 				    	<div id="carriere">
 				    		<h3>Be part of our future</h3>
-				    		<p>Are you committed to innovation, enjoy challenge and want to make a sustainable difference</p>
+				    		<p>Are you ready to step up, and join our organizations goals towards a sustainable difference</p>
 				    	</div>
 				    	<img id="arrowCarr" src={require("../../img/arrowW.png")} alt="pijl1"/>	
 			    	</div>

@@ -29,7 +29,7 @@
 }
 
 img[alt="dock"]{
-	width: 100%;
+	width: 80%;
 }
 
 
@@ -46,11 +46,11 @@ img[alt="dock"]{
   }
 
   #data h1{
-    font-size: 5em;
+    font-size: 3em;
   } 
 
   #data p{
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   #data1{
@@ -64,7 +64,7 @@ img[alt="dock"]{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 150px;
   }
 
    #infoBlok{
@@ -79,12 +79,10 @@ img[alt="dock"]{
   #data1{
     display: flex;
     padding: 20px;
-    font-size: 1.7em;
   }
 
   img[alt="dock"]{  
     overflow: hidden;
-    height: fit-content;
   }
 
 }

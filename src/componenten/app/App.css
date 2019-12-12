@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 .gradientBckgr{
- 	background: -webkit-linear-gradient(0deg, rgba(97,180,219,1) 0%, rgba(0,85,151,1) 65%);
+ 	background: -webkit-linear-gradient(0deg,#61b4db,#005597 65%);
 }
 
 .overlay{
@@ -56,16 +56,6 @@ a{
   cursor: pointer;
 }
 
-@media screen and (min-width: 600px) {
-  
-  h1{
-   font-size: 3em;
-  }
-
-  h2{
-    font-size: 2em;
-  }
-}
 @media screen and (min-width: 769px) {
   
   .container{

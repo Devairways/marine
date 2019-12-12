@@ -16,7 +16,6 @@ const Accordion = () =>{
 		    	<img className="arrowRotate" style={open1 ? {transform:"rotate(270deg)"}: {transform:"rotate(90deg)"}} src={require("../../img/arrow.png")} alt="pijl"/>
 		      	<div className="paneel" style={open1 ? {maxHeight:"250px"}: {maxHeight:"0"}}>
 		      		<ul>
-		      			<li>Rich heritance</li>
 			      		<li>Management</li>
 			      		<li>Values</li>
 			      		<li>Locations</li>
@@ -42,16 +41,16 @@ const Accordion = () =>{
 		    	<img className="arrowRotate" style={open3 ? {transform:"rotate(270deg)"}: {transform:"rotate(90deg)"}} src={require("../../img/arrow.png")} alt="pijl"/>
 		    	<div className="paneel" style={open3 ? {maxHeight:"250px"}: {maxHeight:"0"}}>
 		    		<ul >
-			      		<li>Bakery</li>
-			      		<li>Confectionery</li>
-			      		<li>Spreads</li>
-			      		<li>Frying</li>
-			      		<li>Culinary</li>
-			      		<li>Non-Food products</li>
-			      		<li>Dairy Fat Alternatives</li>
-			      		<li>Infant Nutrition</li>
-			      		<li>Spray Oil</li>
-			      		<li>Special Ingredients</li>
+			      		<li>Cargo Holds</li>
+			      		<li>Underwater Hull</li>
+			      		<li>Topsides</li>
+			      		<li>Cargo Tanks</li>
+			      		<li>Decks</li>
+			      		<li>Portable Watertanks</li>
+			      		<li>Ballast Tanks</li>
+			      		<li>Anti Foulings</li>
+			      		<li>Primers</li>
+			      		<li>Cosmetic Finishers</li>
 			      	</ul>
 		    	</div>
 		      	

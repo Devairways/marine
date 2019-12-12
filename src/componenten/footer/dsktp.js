@@ -9,7 +9,6 @@ const Dsktp = () =>{
 		    	<h3>Our company</h3>
 		    	<div className="">
 		      		<ul>
-		      			<li>Rich heritance</li>
 			      		<li>Management</li>
 			      		<li>Values</li>
 			      		<li>Locations</li>
@@ -30,19 +29,19 @@ const Dsktp = () =>{
 		      	</div>
 		    </div>
 		    <div className="column">
-		    	<h3>Applications</h3>
+		    	<h3>Products</h3>
 		    	<div className="">
 		    		<ul >
-			      		<li>Bakery</li>
-			      		<li>Confectionery</li>
-			      		<li>Spreads</li>
-			      		<li>Frying</li>
-			      		<li>Culinary</li>
-			      		<li>Non-Food products</li>
-			      		<li>Dairy Fat Alternatives</li>
-			      		<li>Infant Nutrition</li>
-			      		<li>Spray Oil</li>
-			      		<li>Special Ingredients</li>
+			      		<li>Cargo Holds</li>
+			      		<li>Underwater Hull</li>
+			      		<li>Topsides</li>
+			      		<li>Cargo Tanks</li>
+			      		<li>Decks</li>
+			      		<li>Portable Watertanks</li>
+			      		<li>Ballast Tanks</li>
+			      		<li>Anti Foulings</li>
+			      		<li>Primers</li>
+			      		<li>Cosmetic Finishers</li>
 			      	</ul>
 		    	</div>
 		      	
@@ -55,10 +54,8 @@ const Dsktp = () =>{
 			      		<li>Certification</li>
 			      		<li>Social Responsibility</li>
 			      		<li>Sustainable Sourcing</li>
-			      		<li>Palm Oils</li>
-			      		<li>Other Oils</li>
-			      		<li>Shea</li>
-			      		<li>List of Mills</li>
+			      		<li>Primers</li>
+			      		<li>Special Primers</li>
 			      		<li>Grievance Procedure</li>
 			      		<li>Supplier Engagement</li>
 		      		</ul>

@@ -40,7 +40,7 @@
 }
 
 #dsktpMenu h2{
-	font-size: normal;
+	font-weight: unset;
 }
 
 
@@ -78,6 +78,7 @@ img[alt="logo_slogan"]{
 img[alt="dropdown"]{
 	margin-bottom: -5px;
 	padding-right: 5px;
+	height: 20px;
 }
 
 .dropdown {
@@ -141,15 +142,21 @@ img[alt="dropdown"]{
 		margin-right: -50px;
 	}
 
-	#dsktpMenu{
+	#burgerMenu {
+    right: 30px;
+    }
+
+    #dsktpMenu{
 		display: inline-flex;
 		width: 100%;
 		justify-content: flex-end;
 		margin: 0;
 		padding: 0;
+		position:absolute;
+		right: 55px;
 	}
+
 	#dsktpMenu h2{
-		font-weight: normal;
 		margin: 0;
 		padding: 0;
 		padding-right: 20px;

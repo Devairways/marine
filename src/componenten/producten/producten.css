@@ -1,5 +1,5 @@
 .productKaart{
-	height: 200px;
+	height: 150px;
 }
 
 .product{
@@ -13,7 +13,7 @@
 	width: 140px;
 	padding: 5px;
 	color: #fff;
-    margin-top: 64px;
+    margin-top: 14px;
     float: right;
     cursor: pointer;
 }
@@ -36,18 +36,15 @@
 
     #productLijst{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(5, 20vw);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 10vw);
     }
     .productKaart{
         height: unset;
     }
     .product{
-        margin: 0 auto;
-        padding-left: 0;
-        padding-top: 25%;
+        margin:auto;
         color: #fff;
-        font-size: xx-large;
         align-self: start;
     }
 

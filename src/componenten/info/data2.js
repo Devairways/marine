@@ -6,8 +6,8 @@ const Blok2 = () => {
   	<section id="data1" className="container">
   	 <div id="infoBlok">
 		<div >
-	    	<h2>The industry`s most globally integrated and sustainable supply chain</h2>
-	      	<p>We serve you with superior quality ingredients at any time, we are ready to respond with speed and agillity</p>
+	    	<h2>Right from our Docks to anywhere in the world</h2>
+	      	<p>We have got it covered. In any quantity, fast and agile delivery is a standard</p>
 	    </div>
 	    <div id="uren">
 	    	<div>
@@ -20,10 +20,10 @@ const Blok2 = () => {
 		    </div>
 	    </div>
 	    <div>
-	    	<a href=""><span>Discover our supply chain</span><img className="arrow" src={require("../../img/arrow.png")} alt="pijl"/></a>
+	    	<a href=""><span>Discover our locations</span><img className="arrow" src={require("../../img/arrow.png")} alt="pijl"/></a>
 	    </div>
 	    </div>
-	    <img src={require("../../img/Rdam_dock.png")} alt="dock"/>
+	    <img src={require("../../img/ship_dock.jpg")} alt="dock"/>
   	</section>
    
   );

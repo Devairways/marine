@@ -1,6 +1,4 @@
-Bunge Loders Croklaan concept website,
-
-In opdracht van Dpdk &#169;
+Marine paints concept website,
 
 ## Lokaal runnen script
 

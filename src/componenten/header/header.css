@@ -16,15 +16,11 @@
 }
 
 header{
-  background: url("../../img/hdr_background_mob.png") no-repeat;
+  background: url("../../img/cargo-Ship_mob.jpg") no-repeat;
   background-position: center;
   background-size: 100% 100%;
   background-attachment: fixed;
   height: 640px;
-}
-
-header h1 {
-  font-size: normal;
 }
 
 
@@ -37,34 +33,24 @@ header h1 {
   }
   
   header{
-    background: url("../../img/hdr_background_mob.png") no-repeat;
+    background: url("../../img/cargo-ship_dsktp.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
-  }
-
-  header h1{
-    height: 90%;
-    width: 90%;
-    padding: 70px 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   
   header{
-    background: url("../../img/hdr_background_dsktp.png") no-repeat;
+    background: url("../../img/cargo-ship_dsktp.jpg") no-repeat;
     background-position: center;
     background-size: cover;
   }
 
   header h1{
-    font-size: 4rem;
+    font-size: 2rem;
     width: 70%;
     padding-top: 10%;
-  }
-
-  header h2{
-    font-size: normal;
   }
 }
