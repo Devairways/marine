@@ -26,6 +26,11 @@ header{
 
 @media screen and (min-width: 642px) {
 
+  header{
+    height: 100vh;
+}
+
+
   #button{
     position: absolute;
     right: 0;
