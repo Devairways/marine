@@ -58,7 +58,7 @@ const Producten = () => {
 	  	<section>
 	  		<div className="gradientBckgr">
 	  			<div className="container">
-		    	<h2>Our premium Products</h2>
+		    	<h2>Our premium Applications</h2>
 			    </div>
 	  		</div>
 		    <div id="productLijst">

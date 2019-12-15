@@ -31,23 +31,10 @@ header{
     right: 0;
     bottom: 0;
   }
-  
-  header{
-    background: url("../../img/cargo-ship_dsktp.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-  }
 }
 
 @media screen and (min-width: 1024px) {
   
-  header{
-    background: url("../../img/cargo-ship_dsktp.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
   header h1{
     font-size: 2rem;
     width: 70%;
